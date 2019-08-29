@@ -61,6 +61,7 @@ h2 {
   position: absolute;
   top: 720px;
   left: -150px;
+  z-index: 0;
 }
 
  button {
@@ -74,4 +75,52 @@ h2 {
 
 #hold{
   margin-top: -300px;
+}
+
+
+#img-1 img {
+  z-index: 5;
+  position: absolute;
+  top: 900px;
+  left: 550px;
+  height: 350px;
+  width: 350px;
+  transform: rotate(30deg);
+}
+
+#img-2 img {
+  z-index: 5;
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  height: 350px;
+  width: 350px;
+}
+
+
+#img-3 img {
+  z-index: 5;
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  height: 350px;
+  width: 350px;
+}
+
+#img-4 img {
+  z-index: 5;
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  height: 350px;
+  width: 350px;
+}
+
+#img-5 img {
+  z-index: 5;
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  height: 350px;
+  width: 350px;
 }
